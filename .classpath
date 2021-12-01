@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="var" path="M2_REPO/org/apache/poi/poi-ooxml/3.12-beta1/poi-ooxml-3.12-beta1.jar"/>
+	<classpathentry exported="true" kind="var" path="M2_REPO/org/apache/poi/poi/3.12-beta1/poi-3.12-beta1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/animal-sniffer-annotations-1.14.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/byte-buddy-1.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/checker-compat-qual-2.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/commons-exec-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/error_prone_annotations-2.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/gson-2.8.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/guava-23.6-jre.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/httpclient-4.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/httpcore-4.4.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/j2objc-annotations-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/jsr305-1.3.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/okhttp-3.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/okio-1.13.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-api-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-chrome-driver-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-edge-driver-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-firefox-driver-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-ie-driver-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-java-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-opera-driver-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-remote-driver-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-safari-driver-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/selenium 3.12/selenium-support-3.12.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
