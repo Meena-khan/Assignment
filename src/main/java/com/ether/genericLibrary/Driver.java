@@ -12,8 +12,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 
 /**
- * 
- * @author Meena
+ * @author Meena Khan
  *
  */
 public class Driver {
@@ -22,6 +21,10 @@ public class Driver {
 	public static String ieDriverPath="C:\\Softwares\\IEDriverServer_x64_2.45.0\\IEDriverServer.exe";
 	public static String chromeDriverPath="D:\\drivers\\chromedriver.exe";
 
+	/**
+	 * @param browserName
+	 * @return
+	 */
 	@SuppressWarnings("deprecation")
 	public static WebDriver getDriver(String browserName){
 
@@ -34,10 +37,12 @@ public class Driver {
 			driver=new InternetExplorerDriver();
 		}else if(browserName.equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver",chromeDriverPath);
+			
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.addArguments("start-maximized");
 			chromeOptions.addArguments("disable-infobars");
-
+			
+			//This is used for adding extension
 			chromeOptions.addExtensions((new File(Constants.extensionPath)));
 			driver=new ChromeDriver(chromeOptions);
 		

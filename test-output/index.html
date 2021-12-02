@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">7 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,15 +104,44 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.ether.pageTest.RegistrationFormTest" class="method navigator-link" hash-for-method="fillRegistrationFormOfEther">fillRegistrationFormOfEther</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.ether.pageTest.RegistrationFormTest" class="method navigator-link" hash-for-method="validateErrorMessageOnRegistrationForm">validateErrorMessageOnRegistrationForm</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.ether.pageTest.RegistrationFormTest" class="method navigator-link" hash-for-method="ValidateSuccessfulRegistrationOfEtherscanForm">ValidateSuccessfulRegistrationOfEtherscanForm</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ether.pageTest.RegistrationFormTest" class="method navigator-link" hash-for-method="validateErrorMessageOnRegistrationForm">validateErrorMessageOnRegistrationForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ether.pageTest.RegistrationFormTest" class="method navigator-link" hash-for-method="validateLinksOnRegistrationForm">validateLinksOnRegistrationForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ether.pageTest.RegistrationFormTest" class="method navigator-link" hash-for-method="validateNavigationToEtherscanPage">validateNavigationToEtherscanPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ether.pageTest.RegistrationFormTest" class="method navigator-link" hash-for-method="validateRegistrationFormValidationForIncompleteForm">validateRegistrationFormValidationForIncompleteForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.ether.pageTest.RegistrationFormTest" class="method navigator-link" hash-for-method="validateRegistrationFormValidationWithoutCaptchaFill">validateRegistrationFormValidationWithoutCaptchaFill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -132,18 +161,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="fillRegistrationFormOfEther">
-                  </a> <!-- fillRegistrationFormOfEther -->
-                  <span class="method-name">fillRegistrationFormOfEther</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[contains(text(),&apos;Username&apos;)]/following-sibling::input&quot;}
+                  <a name="ValidateSuccessfulRegistrationOfEtherscanForm">
+                  </a> <!-- ValidateSuccessfulRegistrationOfEtherscanForm -->
+                  <span class="method-name">ValidateSuccessfulRegistrationOfEtherscanForm</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Your account registration has been submitted and is pending email verification &apos;)]&quot;}
   (Session info: chrome=96.0.4664.45)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;DESKTOP-VSV7O8E&apos;, ip: &apos;192.168.1.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+System info: host: &apos;DESKTOP-VSV7O8E&apos;, ip: &apos;10.22.8.207&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MEENAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ddcefe6c4cf924486aa269b0b3782992
-*** Element info: {Using=xpath, value=//label[contains(text(),&apos;Username&apos;)]/following-sibling::input}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MEENAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2ad2c0f5bec75e996910d5cfa29b2f1
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Your account registration has been submitted and is pending email verification &apos;)]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -154,32 +183,70 @@ Session ID: ddcefe6c4cf924486aa269b0b3782992
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at com.ether.genericLibrary.WebDriverCommonLib.fillRegistrationForm(WebDriverCommonLib.java:48)
-	at com.ether.pageTest.RegistrationFormTest.fillRegistrationFormOfEther(RegistrationFormTest.java:51)
+	at com.ether.genericLibrary.WebDriverBusinessLib.fillRegistrationForm(WebDriverBusinessLib.java:93)
+	at com.ether.pageTest.RegistrationFormTest.ValidateSuccessfulRegistrationOfEtherscanForm(RegistrationFormTest.java:78)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
                   <em>
-(Validate registeration form of etherscan)                  </em>
+(2.	Validate that when all the fields entered, the registration is getting successful.)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ether.pageTest.RegistrationFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="validateErrorMessageOnRegistrationForm">
                   </a> <!-- validateErrorMessageOnRegistrationForm -->
                   <span class="method-name">validateErrorMessageOnRegistrationForm</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.ether.genericLibrary.WebDriverCommonLib.fillRegistrationForm(WebDriverCommonLib.java:48)
-	at com.ether.pageTest.RegistrationFormTest.validateErrorMessageOnRegistrationForm(RegistrationFormTest.java:57)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                   <em>
-(Validate error message on registeration form of etherscan)                  </em>
+(3.	Validate if all fields are not given (considering all are mandatory) and user clicks on ‘create an account’, the validation message should be shown individually)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLinksOnRegistrationForm">
+                  </a> <!-- validateLinksOnRegistrationForm -->
+                  <span class="method-name">validateLinksOnRegistrationForm</span>
+                  <em>
+(4.	Validate the links available on the page i.e ‘Term and Conditions’ and ‘unsubscribe’ are not broken and navigates to the corresponding page on link when clicked.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNavigationToEtherscanPage">
+                  </a> <!-- validateNavigationToEtherscanPage -->
+                  <span class="method-name">validateNavigationToEtherscanPage</span>
+                  <em>
+(1.	Validate that page with url i.e https://etherscan.io/register is up and displaying properly.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegistrationFormValidationForIncompleteForm">
+                  </a> <!-- validateRegistrationFormValidationForIncompleteForm -->
+                  <span class="method-name">validateRegistrationFormValidationForIncompleteForm</span>
+                  <em>
+(5.	Validate if incomplete information is given and the user clicks on ‘Create an account’ button, then only the remaining unfilled fields should show the validation message.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegistrationFormValidationWithoutCaptchaFill">
+                  </a> <!-- validateRegistrationFormValidationWithoutCaptchaFill -->
+                  <span class="method-name">validateRegistrationFormValidationWithoutCaptchaFill</span>
+                  <em>
+(7.	Validate without completing the captcha the user is not able to register to etherscan form registration and the validation message is shown correctly for captcha.)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -190,6 +257,26 @@ Session ID: ddcefe6c4cf924486aa269b0b3782992
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ether.pageTest.RegistrationFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ether.pageTest.RegistrationFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ether.pageTest.RegistrationFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ether.pageTest.RegistrationFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.ether.pageTest.RegistrationFormTest&quot;/&gt;
@@ -224,6 +311,18 @@ Session ID: ddcefe6c4cf924486aa269b0b3782992
               <li>
                 <span class="test-name">Test (1 class)</span>
               </li>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -248,20 +347,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'fillRegistrationFormOfEther')
+data.setCell(0, 1, 'ValidateSuccessfulRegistrationOfEtherscanForm')
 data.setCell(0, 2, 'com.ether.pageTest.RegistrationFormTest')
-data.setCell(0, 3, 44416);
+data.setCell(0, 3, 32034);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateErrorMessageOnRegistrationForm')
+data.setCell(1, 1, 'validateLinksOnRegistrationForm')
 data.setCell(1, 2, 'com.ether.pageTest.RegistrationFormTest')
-data.setCell(1, 3, 10721);
+data.setCell(1, 3, 5258);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateRegistrationFormValidationWithoutCaptchaFill')
+data.setCell(2, 2, 'com.ether.pageTest.RegistrationFormTest')
+data.setCell(2, 3, 2550);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateRegistrationFormValidationForIncompleteForm')
+data.setCell(3, 2, 'com.ether.pageTest.RegistrationFormTest')
+data.setCell(3, 3, 1668);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateErrorMessageOnRegistrationForm')
+data.setCell(4, 2, 'com.ether.pageTest.RegistrationFormTest')
+data.setCell(4, 3, 1583);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateNavigationToEtherscanPage')
+data.setCell(5, 2, 'com.ether.pageTest.RegistrationFormTest')
+data.setCell(5, 3, 1356);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -293,25 +408,59 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">configBeforeMtd(org.testng.xml.XmlTest@7f24baa1)</span>
-                <span class="method-start">2881 ms</span>
+                <span class="method-name">configBeforeMtd(org.testng.xml.XmlTest@6d560ee4)</span>
+                <span class="method-start">2118 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">fillRegistrationFormOfEther</span>
-                <span class="method-start">3557 ms</span>
+                <span class="method-name">validateNavigationToEtherscanPage</span>
+                <span class="method-start">2659 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">configBeforeMtd(org.testng.xml.XmlTest@7f24baa1)</span>
-                <span class="method-start">47983 ms</span>
+                <span class="method-name">configBeforeMtd(org.testng.xml.XmlTest@6d560ee4)</span>
+                <span class="method-start">4019 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">validateErrorMessageOnRegistrationForm</span>
-                <span class="method-start">48102 ms</span>
+                <span class="method-name">ValidateSuccessfulRegistrationOfEtherscanForm</span>
+                <span class="method-start">4080 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMtd(org.testng.xml.XmlTest@6d560ee4)</span>
+                <span class="method-start">36117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateErrorMessageOnRegistrationForm</span>
+                <span class="method-start">36165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMtd(org.testng.xml.XmlTest@6d560ee4)</span>
+                <span class="method-start">37749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLinksOnRegistrationForm</span>
+                <span class="method-start">37798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMtd(org.testng.xml.XmlTest@6d560ee4)</span>
+                <span class="method-start">43057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegistrationFormValidationForIncompleteForm</span>
+                <span class="method-start">43096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">configBeforeMtd(org.testng.xml.XmlTest@6d560ee4)</span>
+                <span class="method-start">44765 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegistrationFormValidationWithoutCaptchaFill</span>
+                <span class="method-start">44804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">47355 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

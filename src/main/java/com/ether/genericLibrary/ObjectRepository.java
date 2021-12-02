@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * 
- * @author meena
+ * @author Meena Khan
  *
  */
 public class ObjectRepository {

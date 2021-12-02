@@ -5,9 +5,9 @@
     <classes>
       <class name="com.ether.pageTest.RegistrationFormTest">
         <methods>
+          <include name="quitBrowser"/>
           <include name="configBeforeClass"/>
-          <include name="fillRegistrationFormOfEther"/>
-          <include name="validateErrorMessageOnRegistrationForm"/>
+          <include name="ValidateSuccessfulRegistrationOfEtherscanForm"/>
           <include name="configBeforeMtd"/>
         </methods>
       </class> <!-- com.ether.pageTest.RegistrationFormTest -->
